@@ -9,7 +9,7 @@ const HomePage = () => {
       {/* Navigation */}
       <nav className="p-4 md:p-6 flex justify-between items-center">
         <div className="flex items-center space-x-4 md:space-x-8">
-          <img src="/api/placeholder/120/40" alt="Splurge Pay Logo" className="h-6 md:h-8" />
+          {/* <img src="/api/placeholder/120/40" alt="Splurge Pay Logo" className="h-6 md:h-8" /> */}
           <div className="hidden md:flex space-x-6">
             <a href="#" className="hover:text-blue-400 transition duration-300">Solutions</a>
             <div className="relative group">
@@ -69,9 +69,9 @@ const HomePage = () => {
         <div className="text-center z-10 max-w-4xl">
           <div className="mb-8">
             <button className="bg-gray-800 text-gray-300 px-4 py-2 rounded-full text-sm flex items-center hover:bg-gray-700 transition duration-300">
-              <img src="/api/placeholder/20/20" alt="AI Icon" className="mr-2 h-5 w-5" />
+              {/* <img src="/api/placeholder/20/20" alt="AI Icon" className="mr-2 h-5 w-5" />
               Meets Fintech Intelligence
-              <ChevronDown className="ml-2 h-4 w-4" />
+              <ChevronDown className="ml-2 h-4 w-4" /> */}
             </button>
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold mb-6">
