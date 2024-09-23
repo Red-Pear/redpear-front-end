@@ -39,7 +39,7 @@ const HomePage = () => {
           <button className="hidden md:block px-4 py-2 bg-white text-black rounded-full hover:bg-gray-200 transition duration-300">
             GET STARTED
           </button>
-          <button 
+          <button
             className="md:hidden"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           >
@@ -82,17 +82,17 @@ const HomePage = () => {
               <ChevronDown className="ml-2 h-4 w-4" />
             </button>
           </div>
-          <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold mb-6 animate-fade-in-up" style={{animationDelay: '0.2s'}}>
-            Smart Fintech Solutions for<br className="hidden md:inline" />
+          <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold mb-6 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
+            AI-Driven Trading & Investing<br className="hidden md:inline" />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500 animate-gradient">
-              any Investing Dilemma
+              RedPear
             </span>
           </h1>
-          <p className="text-gray-400 mb-8 text-lg md:text-xl animate-fade-in-up" style={{animationDelay: '0.4s'}}>
+          <p className="text-gray-400 mb-8 text-lg md:text-xl animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
             We Don't Just Focus On Investments, We Consider Your Entire<br className="hidden md:inline" />
             Financial Ecosystem From Budgeting To Retirement
           </p>
-          <button className="bg-white text-black px-8 py-3 rounded-full text-lg font-semibold hover:bg-gray-200 transition duration-300 animate-fade-in-up" style={{animationDelay: '0.6s'}}>
+          <button className="bg-white text-black px-8 py-3 rounded-full text-lg font-semibold hover:bg-gray-200 transition duration-300 animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
             Join for free
           </button>
         </div>
@@ -100,16 +100,16 @@ const HomePage = () => {
         {/* Animated particles */}
         <div className="absolute inset-0 pointer-events-none">
           {[...Array(20)].map((_, i) => (
-            <div key={i} 
-                 className="absolute bg-blue-400 rounded-full opacity-30 animate-float"
-                 style={{
-                   width: Math.random() * 5 + 'px',
-                   height: Math.random() * 5 + 'px',
-                   left: Math.random() * 100 + '%',
-                   top: Math.random() * 100 + '%',
-                   animationDuration: Math.random() * 3 + 2 + 's',
-                   animationDelay: Math.random() * 2 + 's'
-                 }}>
+            <div key={i}
+              className="absolute bg-blue-400 rounded-full opacity-30 animate-float"
+              style={{
+                width: Math.random() * 5 + 'px',
+                height: Math.random() * 5 + 'px',
+                left: Math.random() * 100 + '%',
+                top: Math.random() * 100 + '%',
+                animationDuration: Math.random() * 3 + 2 + 's',
+                animationDelay: Math.random() * 2 + 's'
+              }}>
             </div>
           ))}
         </div>
